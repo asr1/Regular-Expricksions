@@ -1,0 +1,15 @@
+Modify HTML in header to show dick words in page title (permissions?)
+
+Find a way to fix drop-down things (like the subheadings on websites) on Google. We break them (Google Venus and you'll see them). Can we filter by Div  types?
+
+Slider (1 to 10) to modify DICK_VALUE (in the popup.html)
+
+Popup html have option to disable partials
+
+Find some way to reduce need for three identical arrays. Can we capatalize the letters we need and then push those into the separate arrays on page load? change touppercase on the things?
+
+Declare->should go to Dicklare, is going to dickare
+contain->dongain, should be dongtain or nothing
+
+
+Make popup.html with slider, Icon, and textbox so user can add their own words to the whitelist.

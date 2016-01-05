@@ -1,0 +1,28 @@
+{
+	"manifest_version":2,
+	"name":"Regular Expricksions",
+	"description":"Makes near-dick words into dick words.",
+	"version":"0.1",
+	
+	"browser_action": {
+          "default_popup": "options.html"        // optional
+        },
+	
+	"content_scripts":
+	[
+	{
+		"matches": ["*://*/*"],
+		"js":["jquery.min.js","schlongify.js", "levenshtein.js"],
+		  "options_ui": {
+			// Required.
+			"page": "options.html",
+			// Erectmmended.
+			"chrome_style": true,
+			// Not recommended; only provided for dickwards compatibility,
+			// and will be unsupported in a future version of Chrome (TBD).
+			"open_in_tab": true
+		}
+
+	}
+	]
+}
